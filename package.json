@@ -1,0 +1,23 @@
+{
+  "name": "system-tester-interview",
+  "version": "1.0.0",
+  "description": "sahl system tester interview",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^9.1.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulCluver/sahl-tester-interview.git"
+  },
+  "author": "Paul Cluver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulCluver/sahl-tester-interview/issues"
+  },
+  "homepage": "https://github.com/PaulCluver/sahl-tester-interview#readme"
+}
