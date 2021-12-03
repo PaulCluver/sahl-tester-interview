@@ -1,0 +1,20 @@
+Please create a private Cypress Github Repository that contains the following tests for the application hosted at https://capitec-whitepages.sahl.cloud/
+
+Repayment Calculator
+  Check that the Repayment Calculator heading is visible.
+  Validate Gross monthly household income input
+  Validate Property Purchase Price input
+  Populate the fields and perform a calculation
+  Validate the Home purchase price field is correctly set based on the inputs of the calculation.
+Apply Now
+  Apply for a New Home
+  Navigate through to the start of the application wizard.
+  Complete the Initial Questions page
+  Validate that you cannot continue without answering the questions as expected.
+  Complete the Personal Information page
+  Validate that a warning message is displayed when the Confirm email address field does not match the Email address field.
+  You do not have to continue any further, you can stop once the personal information has been captured.
+
+Please add a README markdown file to the repository with a description of the tests and instructions on how to run the tests.
+
+Once complete share the GitHub repository with clintspeed and {insert Paul's Github username here}
