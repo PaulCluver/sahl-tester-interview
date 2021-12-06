@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/PaulCluver/sahl-tester-interview/issues"
   },
-  "homepage": "https://github.com/PaulCluver/sahl-tester-interview#readme"
+  "homepage": "https://github.com/PaulCluver/sahl-tester-interview#readme",
+  "engines": {
+    "node" : "12.16.1"
+  }
 }
