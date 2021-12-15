@@ -23,3 +23,12 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('completeInitialQuestions', (applyingWithCoApplicant, underDebtCounselling, between18and60, haveTitleDeed, aboutToSignOffer) => {
+  const featuresSelector = '[id^="radio-"]';
+  cy.get(featuresSelector).eq(applyingWithCoApplicant).click();
+  cy.get(featuresSelector).eq(underDebtCounselling).click();
+  cy.get(featuresSelector).eq(between18and60).click();
+  cy.get(featuresSelector).eq(haveTitleDeed).click();
+  cy.get(featuresSelector).eq(aboutToSignOffer).click();
+});
